@@ -1,0 +1,42 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+
+.post {
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  width: 500px;
+  border-bottom: 1px solid #000;
+}
+
+.post img {
+  width: 100%;
+}
+
+.post h1 {
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.paginator {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.paginator div {
+  margin: 25px;
+}
+
+.paginator .active {
+  cursor: pointer;
+}
+
+.paginator .disabled {
+  color: #b3b3b3;
+  cursor: not-allowed;
+}
