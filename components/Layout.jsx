@@ -5,6 +5,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
+        <meta name="robots" content="noindex, nofollow" />
         <title>Next News App</title>
       </Head>
       <div className="page-container">
